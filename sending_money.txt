@@ -1,0 +1,31 @@
+sending money
+
+--validation before sending
+A.
+1. check if amount is not empty
+2. check if sender is not empty
+3. check if receivr info are set
+
+B.
+1.check capability to make transaction
+2. check transaction limit if is set
+	a. compare limit with standard
+3. check if id is uploaded for limit
+4. check if business type is for credit or regular
+	a. test if credit is available if s by credit
+
+reqirement needded to send
+sender id
+receiver id
+r.firstN
+r.Lname
+r.phone
+r,bank
+r.actno
+
+
+available option 
+create new receiver
+conversion in naira,conversion in pounds
+
+file dependent:agent_sends,agent_trans_confirmagent_trans_commit(original source)

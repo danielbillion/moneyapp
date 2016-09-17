@@ -1,0 +1,29 @@
+1. //update agent_cust_transaction with agcid of from agent_new_customer table id
+
+SET Option SQL_BIG_SELECTS=1;UPDATE `agent_cust_transaction`  INNER JOIN `agent_new_customer` ON agent_cust_transaction.sender_email=agent_new_customer.email SET agent_cust_transaction.agcid=agent_new_customer.id;
+
+2. 
+//update agent_cust_transaction.agid 
+SET Option SQL_BIG_SELECTS=1;UPDATE agent_cust_transaction INNER JOIN agent ON agent_cust_transaction.agent_email=agent.email SET agent_cust_transaction.agid =agent.id;
+
+3. //UPDATE agent_new_customer with agid from agent id
+		SET OPTION SQL_BIG_SELECTS=1;UPDATE ;
+
+SET Option SQL_BIG_SELECTS=1;UPDATE agent_new_customer INNER JOIN agent ON agent_new_customer.agent_email=agent.email
+SET agent_new_customer.agid=agent.id;
+
+4.
+	// do update for agent_cust_reciver table with agent 'id' into every agent-customer receiver
+
+SET Option SQL_BIG_SELECTS=1;UPDATE agent_cust_receiver INNER JOIN agent ON agent_cust_receiver.agent_email=agent.email
+SET agent_cust_receiver.agid=agent.id;
+
+5.
+// do update for agent_cust_reciver table with agent 'id' into every agent-customer receiver
+
+SET Option SQL_BIG_SELECTS=1;UPDATE agent_cust_receiver INNER JOIN agent_new_customer  ON agent_cust_receiver.agent_cust_email=agent_new_customer.email SET agent_cust_receiver.agcid=agent_new_customer.id;
+
+
+
+
+

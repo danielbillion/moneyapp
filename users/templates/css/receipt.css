@@ -1,0 +1,144 @@
+
+
+
+#centerit, .centerit{
+	 margin: auto;
+    width: 90%;
+    padding: 0px;
+}
+#container{
+border:solid 3px gray;
+border-radius:10px;
+display:inline-block;
+min-width:600px;
+
+}
+#container .container-main{
+display:block;
+position:relative;
+}
+ 
+
+#header{
+text-align:center;
+background:#fffaeb;
+padding:5px;
+border-bottom:dotted 2px #000000;	
+}
+/* heading for each section --- sender,receiver, transaction, payment */
+
+
+#header .newrow{
+	margin:0;
+	padding-top:0px;
+	margin: auto;
+    width: 60%;
+}
+#header .newrow .companylogo{
+	margin:0;
+	display:inline;
+}
+#header .newrow .headerlogo{
+	margin:0;
+	display:inline;
+}
+#header .companyname h1{
+	margin:0;
+	padding:0px;
+	font:bold 24px/1.7em "Montserrat","Playfair Display","GT Walsheim",sans-serif;
+	display:inline;
+}
+#header .newrow .address h4{
+	text-transform:uppercase;
+	font:normal 14px Comic Sans MS,"monospace","helvetica","Trebuchet MS","avenir";
+	display:inline;
+}
+#header .newrow .contact{
+	text-transform:uppercase;
+	font:bold 10px Comic Sans MS,"monospace","helvetica","Trebuchet MS","avenir";
+}
+
+#header .newrow .contact span.email,#header .newrow .contact span.website{
+	text-transform:uppercase;
+	font:normal 10px tahoma,"monospace","helvetica","Trebuchet MS","avenir";
+	display:inline-block;
+	padding-top:5px;
+}
+
+
+
+/************************ Sender & Receiver Section *********/
+.sheading h2{
+	font:bold 18px/1.8em Comic Sans MS,"Helvetica","Gadget";
+	text-transform:uppercase;	
+}
+#transPayment .trans{
+	border-top:double 3px gray;
+	border-right:double 3px gray;	
+} 
+
+ #transPayment .payment{
+	border-top:double 3px gray;
+	border-left:double 3px gray;	
+} 
+#senderReceiver,#transPayment {
+	display:block;	
+	padding:8px 8px;
+	
+}
+
+ .sender, .trans, .receiver, .payment{
+display:inline-block;	
+overflow:hidden;
+}
+ .receiver, .payment{
+	display:inline-block;
+	float:right;
+}
+ .sender, .trans{
+	display:inline-block;
+	float:left;
+}
+
+.item{	
+display:block;
+padding-top:15px;
+float:left;
+line-height:2.5em;
+}
+ .col1, .col2{
+display:inline-block;	
+}
+
+ .col1{
+width:150px;
+float:left;
+}
+
+
+.item h4{
+font:bold 10px/1.0em "Playfair Display", sans-serif;
+text-transform:uppercase;		
+display:inline;
+width:100%;
+
+}
+.item strong{
+font:normal 10px/1.0em "Playfair Display", sans-serif;
+text-transform:capitalize;	
+float:left;
+margin:0 10px;
+width:100%;
+word-wrap: break-word;
+display:inline-block;
+
+}
+
+
+.clearfix{
+	clear:both;
+}
+.print{
+	padding-top:30px;
+	text-align:center;
+}

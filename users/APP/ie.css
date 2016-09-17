@@ -1,0 +1,21 @@
+/* ie styles for when js disabled */
+ul { padding:0; margin:0; background:url(../fallback/navRight.gif) no-repeat 100% 0; font:16px Tahoma, Sans-serif; }
+ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+li { height:44px; position:relative; float:left; list-style-type:none; background:url(../fallback/navBG.gif) repeat-x 0 0; }
+li:hover { background:url(../fallback/navOverBG.gif) repeat-x 0 0; }
+li:first-child { background:url(../fallback/navLeftIE.gif) no-repeat 0 0; }
+li:first-child a { border-left:none; }
+li:first-child:hover { background:url(../fallback/navOverLeft.gif) no-repeat 0 0; }
+li a { display:block; padding:10px 20px; border-left:1px solid #999; border-right:1px solid #222; color:#eee; text-decoration:none; }
+li li { width:auto; clear:left; }
+li li:first-child { background:none; }
+li li:hover { background-image:none; }
+ul li li a:hover { border-right:none; }
+ul ul { padding-left:2px; position:relative; left:2px; background:url(../fallback/subnavBG.png) no-repeat 100% 100%; }
+li li { height:auto; width:98%; left:-2px; }
+ul ul a { left:3px; }
+ul ul a:hover { background:url(../fallback/subOverBG.png) repeat 0 0; }
+ul a span { height:7px; width:12px; margin-top:8px; text-indent:-5000px; overflow:hidden; background:url(../fallback/indicator.png) no-repeat 0 0; }
+ul ul li { background:none; }
+ul ul li.last { margin-bottom:10px; }
+ul ul li a { white-space:pre; border-left:0; }

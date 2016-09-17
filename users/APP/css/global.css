@@ -1,0 +1,1259 @@
+
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed);
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+	background: #DEFFFE url(../_img/bg.png) repeat;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+@font-face {
+    font-family: 'SansusWebissimoItalic';
+    src: url('webfonts/sansus_webissimo-italic-webfont.eot');
+    src: url('webfonts/sansus_webissimo-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/sansus_webissimo-italic-webfont.woff') format('woff'),
+         url('webfonts/sansus_webissimo-italic-webfont.ttf') format('truetype'),
+         url('webfonts/sansus_webissimo-italic-webfont.svg#SansusWebissimoItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SansusWebissimoRegular';
+    src: url('webfonts/sansus_webissimo-regular-webfont.eot');
+    src: url('webfonts/sansus_webissimo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/sansus_webissimo-regular-webfont.woff') format('woff'),
+         url('webfonts/sansus_webissimo-regular-webfont.ttf') format('truetype'),
+         url('webfonts/sansus_webissimo-regular-webfont.svg#SansusWebissimoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'FabricaRegular';
+    src: url('webfonts/fabrica-webfont.eot');
+    src: url('webfonts/fabrica-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/fabrica-webfont.woff') format('woff'),
+         url('webfonts/fabrica-webfont.ttf') format('truetype'),
+         url('webfonts/fabrica-webfont.svg#FabricaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'EnigmaticRegular';
+    src: url('webfonts/enigrg__-webfont.eot');
+    src: url('webfonts/enigrg__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/enigrg__-webfont.woff') format('woff'),
+         url('webfonts/enigrg__-webfont.ttf') format('truetype'),
+         url('webfonts/enigrg__-webfont.svg#EnigmaticRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '7SecondsMedium';
+    src: url('webfonts/7seconds-webfont.eot');
+    src: url('webfonts/7seconds-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/7seconds-webfont.woff') format('woff'),
+         url('webfonts/7seconds-webfont.ttf') format('truetype'),
+         url('webfonts/7seconds-webfont.svg#7SecondsMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face{ 
+	font-family: 'fontin-regular-webfont';
+	src: url('webfonts/fontin-regular-webfont.eot');
+	src: url('webfonts/fontin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('webfonts/fontin-regular-webfont.woff') format('woff'),
+	     url('webfonts/fontin-regular-webfont.ttf') format('truetype'),
+	     url('webfonts/fontin-regular-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'PosterBodoniItBTItalic';
+    src: url('webfonts/poster_bodoni_italic_bt-webfont.eot');
+    src: url('webfonts/poster_bodoni_italic_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/poster_bodoni_italic_bt-webfont.woff') format('woff'),
+         url('webfonts/poster_bodoni_italic_bt-webfont.ttf') format('truetype'),
+         url('webfonts/poster_bodoni_italic_bt-webfont.svg#PosterBodoniItBTItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_condensedbold';
+    src: url('webfonts/helvetica-condensed-bold-webfont.eot');
+    src: url('webfonts/helvetica-condensed-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/helvetica-condensed-bold-webfont.woff') format('woff'),
+         url('webfonts/helvetica-condensed-bold-webfont.ttf') format('truetype'),
+         url('webfonts/helvetica-condensed-bold-webfont.svg#helvetica_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helvetica_condensedmedium';
+    src: url('webfonts/helvetica-condensed-webfont.eot');
+    src: url('webfonts/helvetica-condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/helvetica-condensed-webfont.woff') format('woff'),
+         url('webfonts/helvetica-condensed-webfont.ttf') format('truetype'),
+         url('webfonts/helvetica-condensed-webfont.svg#helvetica_condensedmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_compressedregular';
+    src: url('webfonts/helvetica-compressed-webfont.eot');
+    src: url('webfonts/helvetica-compressed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/helvetica-compressed-webfont.woff') format('woff'),
+         url('webfonts/helvetica-compressed-webfont.ttf') format('truetype'),
+         url('webfonts/helvetica-compressed-webfont.svg#helvetica_compressedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 953px;
+	background: url(../_img/banners/bg-shadow.png) repeat-y center center;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	width:903px;
+	margin:0 auto;
+	
+	
+
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the to;p and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+#logo{
+	width:380px;
+	height:3.4em;
+	padding:48px 24px 15px 24px;line-height:3.4em;
+	float:left;
+}
+
+#exchange-rate{
+	width:380px;
+	height:5.4em;
+	padding:0px 0px 0px 14px;
+	float:right;
+}
+
+#littletext{
+	color:#FF0000;
+	font-size:12px;
+	margin-left:7px;
+}
+
+
+#exchange-login{
+	width:351px;
+	height:1.4em;
+	padding:10px 5px 5px 14px;line-height:1.4em;
+	clear:both;
+	text-align:right;
+	font-size:1.3em;
+	margin-right:13px;
+	float:right;
+}
+
+#exchange-login span{
+	margin:0px 7px;
+	
+}
+#gb{
+	background:url(../_img/banners/gb.png) left no-repeat;
+	padding:0 13px 0 39px;
+	margin:0px;
+}
+
+#ng{
+	background:url(../_img/banners/ng.png) left no-repeat;
+	padding:0 0px 0 39px;
+	margin:0px ;
+}
+.gray{
+	color:#666666;
+}
+#exchange1{
+	width:310px;
+	
+	padding:18px 0px 0px 14px;line-height:2.1em;
+	clear:both;
+	font-size:2.1em;
+	font-weight:bold;
+	font-family: 'SansusWebissimoItalic';
+	color:#0e056c;
+	float:right;
+	text-align:right;
+}
+
+#ratecolor{
+	color:#f81c0c;
+	
+}
+
+
+
+.mainlist ul li {
+    
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+   
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 16px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0;
+    padding-top: 10px;
+	text-align:left;
+	list-style:disc;
+}
+
+.alerttxt{
+	font:Tahoma, Geneva, sans-serif;
+	color:#FF0000;
+	font-weight:bold;
+	font-size:16px;	
+	
+}
+#logo a{
+	
+	font-size:3.9em;
+	text-decoration:none;
+	
+	
+	font-weight:bold;
+	font-family: 'helvetica_compressedregular', sans-serif;
+}
+.logo-color1{
+	color:#FFB76F;
+}
+
+.logo-color2{
+	color:#989090;
+}
+
+
+.content {
+	width:903px;
+	margin:0 auto;
+	
+}
+
+#innercontent{
+	width:500px;
+	margin:0px;
+	padding:40px;
+	float:left;
+	font-size:13px;
+}
+
+#innercontent2{
+	width:880px;
+	margin:0px;
+	padding:30px 10px;
+	float:left;
+	font-size:13px;
+}
+
+#innercontent p{
+	
+	margin:0px;
+	padding:13px 0px;
+	font-size:15px;
+	color:#333333;
+	line-height:18px;
+	font-family:'Cabin Condensed';
+}
+
+
+#innercontent2 p{
+	
+	margin:0px;
+	padding:6px;
+	font-size:13px;
+	line-height:15px;
+}
+ 
+.minitext2{
+	padding:13px;
+	background-color:#FEE3E2;
+} 
+ 
+ .smallgrey{
+	 color:#666666;
+	 font-size:12px;
+ }
+ 
+.advert-3 {
+    margin: 0 2px 8px 0;
+    padding: 0 0 10px;
+    width: 200px;
+	float:right;
+}
+#innercontent2 h2, #innercontent h2{
+	
+	margin:0px;
+	padding:6px 0px;
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+	font-family: 'SansusWebissimoItalic';
+	color:#0E056C;
+}
+
+#ad-side{
+	width:274px;
+	margin:7px 19px 5px 0px;
+}
+
+.ad{
+	width:283px;
+	margin:97px;
+	margin:0 0 5px;
+}
+
+.menu{
+	width: 940px; /* The menu should be the entire width of it's surrounding object, in this case the whole page */
+	background:url(../images/bg3.jpg) repeat-x;
+	width:903px;
+	height:44px;
+	margin:0 auto;
+	overflow:hidden;
+	
+		} /* dark grey bg */
+ 
+.menu ul{
+	margin: 0;
+	padding: 0;
+	
+	list-style:none;
+	height:45px;
+	}
+ 
+.menu ul li{
+	float:left;
+
+	margin: 10px 0px;
+	padding: 0;
+	height:35px;
+	} /* Makes the link all appear in one line, rather than on top of each other */
+ 
+.menu ul li a{
+	float: left; 
+	text-decoration: none; /* removes the underline from the menu text */
+	color: #fff; /* text color of the menu */
+	padding: 0px 23px; /* 10.5px of padding to the right and left of the link and 11px to the top and bottom */
+	font-size:1.45em;
+	
+	line-height:1.64em;
+	font-weight:bold;
+	font-family: 'FabricaRegular', sans-serif;
+	border-right:dotted 1px #FFF;
+	
+	
+	}
+#noborderright{
+		border-right:none;
+	}
+ 
+.menu ul li a:visited{ /* This bit just makes sure the text color doesn't change once you've visited a link */
+	color: #fff;
+	text-decoration: none;}
+ 
+.menu ul li a:hover, .menu ul li .current{
+	color:#000;
+	text-decoration:underline;
+	
+	
+	}
+#maincontent{
+	margin:0;
+	padding:0;
+}
+
+.hcol1{
+	width:283px;
+	margin:0;
+	padding:5px 3px 5px 0xp;
+}
+
+.hcol2{
+	width:315px;
+	margin:0;
+	padding:5px 3px 5px 0xp;
+}
+
+	
+#slideshow{
+	padding-top:0px;
+	height: 290px;
+	width: 903px;
+	border-bottom:dotted thin #CCC;
+	overflow:hidden;
+	position:relative;
+}
+#banner {
+	margin: 0 auto;
+	padding: 0px;
+	height: 322px;
+	width: 903px;
+	overflow:hidden;
+}
+.slida {
+
+	clear: both;
+	float: left;
+	height: 325px;
+	width: 903px;
+	position:relative;
+	margin:0 auto;
+}
+
+.slida img{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+	
+
+
+.mybut{
+	 -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #666;
+	color:#fff;
+	cursor: pointer;
+    font-family: Arial;
+	font-weight:bold;
+    margin: 7px 5px;
+    
+    overflow-x: visible;
+    overflow-y: visible;
+    padding: 6px;
+	border:none;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	}
+	
+	#res{
+		font-size:14px;
+		color:#003300;
+		line-height:43px;
+		font-weight:bold;
+	}
+	
+	#res a{
+		color:#FF0000;
+	}
+
+.advert_button{
+	
+	position:absolute;
+	bottom:30px;
+	right:13px;
+	background:url(../_img/banners/glossy.png) repeat-x 0 0;
+	width:auto;
+	
+	cursor:pointer;
+	color:#000;
+	font-family: 'FabricaRegular';
+	font-size: 13px;
+	font-weight: bold;
+	line-height:33px;
+	padding:0px 20px;
+	border-left: solid #737373 1px;
+	border-right: solid #737373 1px;
+	
+	
+}
+
+
+
+
+.textstyle1 .advert_title{
+	position:absolute;
+	top:-306px;
+	left:0px;
+	width:344px;
+	height:279px;
+	display:none;
+	padding:13px;
+	background-image:url(../_img/banners/green.png);
+	
+}
+
+
+.textstyle1 .advert_title .bigtxt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000;
+	
+	line-height:18px;
+	margin:15px 0px;
+	
+}
+
+.textstyle1 .advert_title .smalltxt{
+	font-family: 'SansusWebissimoItalic';
+	font-size: 20px;
+	color:#000;
+	line-height:20px;
+	font-weight:bold;
+	width:330px;
+	margin:15px 0px;
+}
+
+.textstyle1 .advert_title .smalltxt2{
+	font-family: 'Nunito',sans-serif;
+	font-size: 26px;
+	color:#D10C03;
+	line-height:28px;
+	font-weight:bold;
+	margin:9px 0px;
+}
+
+
+
+
+.textstyle2 .advert_title{
+	position:absolute;
+	top:-306px;
+	right:0px;
+	width:344px;
+	height:279px;
+	display:none;
+	padding:13px;
+	background-image:url(../_img/banners/green2.png);
+}
+
+
+.textstyle2  .advert_button{
+	
+	position:absolute;
+	bottom:30px;
+	right:13px;
+	background:url(../_img/banners/glossy2.png) repeat-x 0 0;
+	
+	height:36px;
+	cursor:pointer;
+	color:#fff;
+	font-family: 'FabricaRegular';
+	font-size: 13px;
+	font-weight: bold;
+	line-height:38px;
+	padding:0px 24px;
+	border-left: solid #BB0500 1px;
+	border-right: solid #BB0500 1px;
+	
+	
+}
+
+
+.textstyle2 .advert_title .bigtxt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:#2B5924;
+	line-height:18px;
+	margin:15px 0px;
+	font-weight:bold;
+	
+}
+
+.textstyle2 .advert_title .smalltxt{
+	font-family: 'SansusWebissimoItalic';
+	font-size: 20px;
+	color:#D10C03;
+	line-height:20px;
+	font-weight:bold;
+	width:330px;
+	margin:15px 0px;
+}
+
+.textstyle2 .advert_title .smalltxt2{
+	font-family: 'Nunito',sans-serif;
+	font-size: 26px;
+	color:#000;
+	line-height:28px;
+	font-weight:bold;
+	margin:9px 0px;
+}
+
+
+
+
+#nav { z-index: 50; position:absolute; top: 270px; left: 365px }
+#nav a { margin: 0 1px; padding: 6px 9px; background:url(../_img/banners/dot1.png) center center no-repeat; text-decoration: none; font-size:12px; text-indent:-9999px; color:#cc952c;}
+#nav a.activeSlide {  background:url(../_img/banners/dot2.png) center center no-repeat; color:#FFF; text-indent:-9999px; color:#fff }
+
+
+#mytable td {
+	font: 13px "Arial", Verdana,  Helvetica,
+	sans-serif;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #666666;
+}
+
+
+#mytable .alt {
+	background:#f4d9bc;
+	color: #666666;
+}
+
+#mytable th.spec {	
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+}
+
+#mytable th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #B4AA9D;
+}
+
+#mytable th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #6D929B;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+#mytable th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+.firstrow{
+	
+}
+
+.rtborder{
+	border-right:thin dotted #CCCCCC;
+	
+}
+
+#box_row{
+	width:903px;
+	height:173px;
+	margin:6px 0px 0px;
+	
+	background:url(../_img/banners/boxl.jpg) repeat-x 0 0;
+	border:thin #D5DEE5 solid;
+	padding:0px;
+}
+.box1{
+	width:243px;
+	height:113px;
+	padding:10px 27px;
+	
+	float:left;
+	margin-top:20px;
+	
+}
+
+.box1 p{
+	margin-top: 0;
+	padding-right: 5px;
+	padding-left: 5px; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	font-style:italic;
+	color:#666;
+	
+}
+
+.box1 h1  {
+	margin: 0;
+	padding-right: 5px;
+	padding-left: 5px; 
+	font-family: 'SansusWebissimoItalic';
+	font-weight:bold;
+	font-size:28px;
+	color:#7ABBE2;
+}
+
+#wholenotice p{
+	margin: 0;
+	padding-right: 15px;
+	padding-left: 15px; 
+	font-family: 'SansusWebissimoItalic';
+	font-weight:normal;
+	font-size:19px;
+	line-height:23px
+	text-align:left;
+	
+}
+#wholenotice {
+	margin: 7px 0px;
+	padding: 18px;
+	background:#D7DCC0 url(../_img/banners/bg.jpg) repeat-x  0 0 ;
+	border:#D7DCC0 solid 1px;
+	font-size:200%;
+	color:#660000;
+	width:566px;
+	
+}
+.margintop{
+	margin-top:5px;
+}
+
+.marginleft{
+	margin-right:5px;
+}
+.advert_title .open_new {
+	background-image: url(../_img/banners/now_open.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 115px;
+	width: 120px;	
+}
+.myform p {
+    
+   
+    font-size: 12px;
+    margin: 10px 0px;
+    text-align: left;
+    
+}
+
+p label {
+    color:#003300;
+   font-weight:bold;
+    font-size: 12px;
+    margin: 10px 0px;
+    text-align: left;
+    width: 120px;
+}
+
+.myfieldst{
+	padding:4px 6px;
+	border:#CCC solid 1px;
+}
+
+.myfieldst legend{
+	font-family: 'SansusWebissimoItalic';
+	color:#003300;
+	font-weight:bold;
+	font-size:18px;
+}
+
+#calculate-but{
+	color:#330000;
+	font-weight:bold;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 30px 0 15px 15px;
+	margin-top:20px;
+	
+}
+
+.footer p{
+	font-size:11px;
+	text-align:left;
+	color:#666666;
+	
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+#col_span{
+	margin:0px;
+	padding:0px;
+	width:606px;
+}
+
+
+
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  color:#000000;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menu li {
+  margin-top: 0px;
+  padding-left:5px;
+  
+}
+
+ul#menu li a {
+  background:#FFB76F;
+  color: #000000;	
+  padding: 0.5em;
+  font-size:14px;
+  border-bottom:1px solid #AF7D18;
+  font-weight:bold;
+  
+}
+
+ul#menu li a:hover {
+  background:#3330;
+   background: black url(glossyback2.jpg) repeat-x bottom left;
+   color:#000000;
+}
+
+ul#menu li ul li {
+  
+  color: #000;
+  padding: 0px;
+  font-size:13px;
+}
+
+ul#menu li ul li a {
+  background: #ccc;
+  color: #000;
+  padding-left: 20px;
+  font-size:13px;
+  font-weight:normal;
+  border-bottom:1px solid #ffffff;
+
+}
+
+ul#menu li ul li a:hover {
+  background:#42413c;
+  border-left: 6px #F5D95B  solid;
+  padding-left: 15px;
+  color:#FFFFFF;
+}
+
+ul#menu li  a:hover {
+  background:#42413c;
+  border-left: 6px #F5D95B  solid;
+  padding-left: 15px;
+  color:#FFFFFF;
+}
+
+#acct_menu{
+	width:200px;
+	Background: none repeat scroll 0 0 #FFB76F
+}
+
+#account_content{
+	width:650px;
+	margin-left:18px;
+}
+
+p label {
+    color: #003300;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+	float:left;
+}
+
+.centered{
+	margin:0 auto;
+}
+
+.acct_form{
+	
+	width:400px;
+	padding:30px 0px;
+}
+
+#sendmoney {
+    background-color: #FF9900;
+    border: 1px solid #FF6600;
+    height: 90px;
+    padding: 8px;
+    width: 240px;
+}
+
+#sendmoney a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.box{
+	margin:10px auto;
+	width:570px;
+	
+}
+.somecols{
+	min-height:800px;
+}
+
+.box h3{
+	padding:20px 0px 0px 5px;
+	
+}  
+
+.error p {
+    color: #FF0000 !important;
+    font-weight: bold;
+	font-size: 95%;
+}
+#standard-error{
+	margin:10px;
+}
+.error {
+    clear: both;
+    font-size: 95%;
+    margin: 10px 0;
+}
+
+.error ul li {
+    color: #FF0000 !important;
+    margin: 3px 6px;
+}
+.row{
+	margin:2px;
+	padding:4px;
+	text-align:left;
+	background-color:#E6E6E6;
+}
+
+.row2{
+	margin:2px;
+	padding:4px;
+	text-align:left;
+	background-color:#FFB76F;
+	font-weight:bold;
+}
+
+.row3{
+	margin:2px;
+	padding:0px;
+	text-align:left;
+	background-color:#D2D2A6;
+	height:26px;
+}
+.col1{
+	width:150px;
+}
+.col2{
+	width:180px;	
+	
+	
+}
+
+.form_label{
+	margin:2px;
+	padding:4px;
+	text-align:left;
+	background-color:#D2D2A6;
+	font-weight:bold;
+	width:160px;
+height:18px;
+}
+
+.form_text{
+	margin:2px;
+	padding:4px;
+	text-align:left;
+	background-color:#E6E6E6;
+	height:18px;
+	width:250px;
+
+}
+.controls{
+	width:546px;
+	margin-top:13px;
+	float:left;
+}
+.controls #button{
+	
+	float:right;
+}
+
+#account_content .form_label{
+	margin:0px;
+	padding-left:15px;
+	text-align:left;
+	background-color:#D2D2A6;
+	font-weight:bold;
+	width:160px;
+   height:38px;
+   	line-height:38px;
+	border-bottom:#FFFFFF dotted 1px;
+}
+
+.sub-row-header{
+	margin:25px 0px 0px 0px;
+	font-size:14px;
+	color:#FFFFFF;
+	background-color:#000000;
+	width:550px;
+	padding:8px;
+}
+
+#account_content  .form_text{
+	margin:0px 0px 0px 0px;
+	padding-left:15px;
+	text-align:left;
+	background-color:#E6E6E6;
+	height:38px;
+	width:370px;
+	line-height:38px;
+
+}
+
+#account_content  .form_text .jqTransformInputWrapper {{
+	margin:10px 0px;
+	
+}
+
+.col3{
+	width:110px;	
+	
+	
+}
+
+#exchange-login span{
+	margin:3px 6px;
+}
+
+
+.qtip {
+	margin-right:80px;
+	width:80px;
+}
+
+.gips-container
+{
+    height: 70px;
+    width: 252px;
+    position: absolute;
+}
+.gips-body
+{
+    color: White;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 10px;
+    width: 220px;
+    height: 39px;
+    padding: 10px;
+    padding-right:20px;
+    position: relative;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    behavior: url(PIE.htc);
+}
+.gips-body.purple
+{
+    background-color: #D22769;
+}
+
+.gips-body.yellow
+{
+    background-color: #D5AF1C;
+}
+.gips-body.red
+{
+    background-color: #CB2026;
+}
+.gips-body.green
+{
+    background-color: #72A159;
+}
+.gips-close
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 90%;
+}
+.gips-icon
+{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px;
+    position: absolute;
+}
+/*icon at the bottom */
+.gips-icon-bottom
+{
+    margin-left: 12px;
+}
+.gips-icon-bottom.purple
+{
+    border-color: #D22769 transparent transparent transparent;
+}
+.gips-icon-bottom.red
+{
+    border-color: #CB2026 transparent transparent transparent;
+}
+.gips-icon-bottom.yellow
+{
+    border-color: #D5AF1C transparent transparent transparent;
+}
+.gips-icon-bottom.green
+{
+    border-color: #72A159 transparent transparent transparent;
+}
+
+/*icon at the top*/
+
+.gips-icon-top
+{
+    margin-left: 12px;
+}
+.gips-icon-top.purple
+{
+    border-color: transparent transparent #D22769 transparent;
+}
+.gips-icon-top.red
+{
+    border-color: transparent transparent #CB2026 transparent;
+}
+.gips-icon-top.yellow
+{
+    border-color: transparent transparent #D5AF1C transparent;
+}
+.gips-icon-top.green
+{
+    border-color: transparent transparent #72A159 transparent;
+}
+/*icon at the left*/
+
+.gips-icon-left
+{
+    margin-top: 12px; /*   float: left;*/
+}
+.gips-icon-left.purple
+{
+    border-color: transparent #D22769 transparent transparent;
+}
+.gips-icon-left.red
+{
+    border-color: transparent #CB2026 transparent transparent;
+}
+.gips-icon-left.yellow
+{
+    border-color: transparent #D5AF1C transparent transparent;
+}
+.gips-icon-left.green
+{
+    border-color: transparent #72A159 transparent transparent;
+}
+/*icon at the right*/
+
+.gips-icon-right
+{
+    margin-top: 12px;
+}
+.gips-icon-right.purple
+{
+    border-color: transparent transparent transparent #D22769;
+}
+.gips-icon-right.red
+{
+    border-color: transparent transparent transparent #CB2026;
+}
+.gips-icon-right.yellow
+{
+    border-color: transparent transparent transparent #D5AF1C;
+}
+.gips-icon-right.green
+{
+    border-color: transparent transparent transparent #72A159;
+}
+
+.qtip {
+	margin-left:20px;
+	width:40px;
+}
+

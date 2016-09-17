@@ -1,0 +1,232 @@
+
+
+
+body {margin:0; padding:0; background:#000000;}
+table, td {border-collapse:collapse;}
+table, td, img {border:1;}
+form, td {margin:0; padding:0;}
+td, tr {font:13px/14px arial, tahoma, helvetica, sans-serif; color: #000 }
+
+
+.end{ color:#FFFFFF; font-size:12px; padding:24px 0 0 156px;}
+.end a{ color:#FFFFFF; text-decoration:none;}
+.end a:hover{ color:#FFFFFF; text-decoration:underline;}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+a{ color:#FD7914; text-decoration:underline;}
+a:hover{
+	color:#F00;
+	text-decoration:none;
+	font-weight: bold;
+}
+strong a{ color:#8D9D00; text-decoration:none;  background:url(images/hel_1.gif) bottom left repeat-x;}
+strong a:hover{ color:#7D838C; text-decoration:none;}
+strong img{ margin:0 0 0 6px;}
+
+span a{ color:#8D9D00; text-decoration:none;  background:url(images/hel_1.gif) bottom left repeat-x;}
+span a:hover{ color:#7D838C; text-decoration:none;}
+span img{ margin:0 0 0 0px;}
+
+
+b{ color:#31373F}
+
+
+.r1 ul { margin:0; padding:0; list-style:none;}
+.r1 li { margin:0; padding:0;}
+.r1 li a {line-height:23px; color:#8D9D00; text-decoration:none;  font-family:arial; background:url(images/hel_1.gif) bottom left repeat-x;}
+.r1 li a:hover { text-decoration:none; color:#7D838C;}
+
+/*###*/
+.menu td a {display:block;text-decoration:none;}
+.menu td a:hover {text-decoration:none;}
+
+.menu td.m1 a  {width:69px;height:35px; background:url(images/m1.jpg) no-repeat;}
+.menu td.m1 a:hover {background:url(images/m1m.jpg) no-repeat top; }
+.menu td.m2 a{width:90px;height:35px; background:url(images/m2.jpg) no-repeat;}
+.menu td.m2 a:hover {background:url(images/m2m.jpg) no-repeat; }
+.menu td.m3 a  {width:92px;height:35px; background:url(images/m3.jpg) no-repeat;}
+.menu td.m3 a:hover {background:url(images/m3m.jpg) no-repeat; }
+.menu td.m4 a  {width:137px;height:35px; background:url(images/m4.jpg) no-repeat;}
+.menu td.m4 a:hover {background:url(images/m4m.jpg) no-repeat; }
+.menu td.m5 a  {width:119px;height:35px; background:url(images/m5.jpg) no-repeat;}
+.menu td.m5 a:hover {background:url(images/m5m.jpg) no-repeat; }
+/*###*/
+
+.f_1{width:246px; height:100%; background:#FFFFFF;}
+.f_1 img{margin-top:50px;}
+
+.f_2{width:507px; height:100%; background:url(images/cc1.jpg) top left repeat-x;}
+.f_3{background:url(images/1bgr1.jpg) top left repeat-x; width:508px; height:32px;}
+.f_3 img{margin-left:223px;}
+
+.a1{ width:71px; padding:4px 0 0 0; color:#E8E8E8; font-size:12px; font-family:Arial;}
+.a2{ width:144px; height:21px;}
+.a2 input{ width:136px; height:21px; margin:1px 0 0 1px; border:1px solid #26282B;  padding:2px 0 1px 4px; color:#575E67; font-family:tahoma; font-weight:bold; font-size:11px;}
+
+.a3{background: #31373F url(images/1con2.jpg) bottom left no-repeat; width:507px; height:36px;}
+.a3 table{margin:7px 0 0 223px;}
+
+.a4{height:25px; width:217px; background: #F4F4F4 url(images/1con_1.jpg) bottom left no-repeat;}
+.a4 table{margin:8px 0 0 117px;}
+
+.a5{height:51px; background:#E8E8E8; width:753px;}
+
+.txt1 td{
+	color:#CCC;
+	line-height:14px;
+	font-family:arial;
+}
+.txt1 td em{ color:#8D9D00; font-size:13px;}
+.txt1 td strong{
+	color:#F00;
+	font-size: 13px;
+}
+.txt1_ins strong a{ color:#8D9D00; text-decoration:none;  background:url(images/hel_1.gif) bottom left repeat-x;}
+.txt1_ins strong a:hover{ color:#7D838C; text-decoration:none;}
+.txt1_ins img{ margin:0 0 0 6px;}
+.txt1_ins b a{ color:#7D838C; text-decoration:none;  background:url(images/hel_2.gif) bottom left repeat-x;}
+.txt1_ins b a:hover{ color:#8D9D00; text-decoration:none;}
+.txt1 td span{
+	color:#333
+}
+
+.f11 td input{ width:218px; height:21px; border:1px solid #7D838C; color:#7D838C; padding:1px 0 1px 4px; font-size:11px; font-family:tahoma; font-weight:bold; margin:1px 0 7px 0;}
+.f11 td textarea{ width:218px; height:150px; border:1px solid #7D838C; color:#7D838C; padding:1px 0 1px 4px; font-size:11px; font-family:tahoma; font-weight:bold; overflow:auto; margin:1px 0 11px 0;}
+
+
+.h2
+{
+	color:#00F;
+	font-size:12pt;
+	font-weight:bold;
+	font-family:"Times New Roman", Times, serif;
+}
+.h3
+{
+	color:#F00;
+	text-align:center;
+	font-size:10pt;
+	font-weight:bold;
+	font-family:"Times New Roman", Times, serif;
+}
+.no
+{
+	color:#0000;
+	text-align:left;
+	font-size:10pt;
+	font-weight:bold;
+	font-family:"Arial";
+}
+
+.no2{
+	font-family:"Arial";color:#0000;font-size: 12px; font-weight: bold;
+	}
+.trapezium {
+   height: 0; 
+   width:830px;
+   border-bottom: 67px solid 31373F;
+   border-left: 40px solid transparent;
+   border-right: 40px solid transparent;
+  
+   /*-moz-border-radius: 100px / 50px; 
+   -webkit-border-radius: 100px / 50px; 
+   border-radius: 100px / 50px */
+	
+		
+
+}
+
+
+/* Spinning, gradient circle; CSS only! */
+.circle {
+	border-radius: 50%;
+	width: 125px;
+	height: 125px; 
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, white 0%, #CCC 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, white, #CCC);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, white 0%, #CCC 100%, red 95%);
+	
+	animation-name: spin; 
+	animation-duration: 3s; /* 3 seconds */
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+	
+	moz-border-radius: 100px / 50px; 
+   -webkit-border-radius: 100px / 50px; 
+   border-radius: 100px / 50px
+	/* width and height can be anything, as long as they're equal */
+}
+
+
+/* Cleaner, but slightly less support: use "50%" as value */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #000099;
+		
+		font-weight: bold;
+		background-color: #000099;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+	

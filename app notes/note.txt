@@ -1,0 +1,40 @@
+Money App is designed using MVC framework
+
+model(libraries), view(templates) and controllers
+
+login-hold class with login class, validation class
+
+login class hold agent, customer and admin access
+
+--The system on login update al database with agent id customer id  to trnasaction, new agent customer and receivr table
+with Update class(@librared via agent-->index)
+	--index hold control for customer and agent page
+	---panel color diffferentiate aget from customer
+
+Update class in the libraries
+-SET @preparedStatement2 =  (SELECT IF(
+    (SELECT COUNT(*)
+        FROM INFORMATION_SCHEMA.COLUMNS
+        WHERE table_name = 'agent_cust_receiver'
+        AND table_schema = 'nitty'
+        AND column_name = 'bank'
+    ) > 0,
+    'SELECT 1',
+    'ALTER TABLE agent_cust_receiver ADD bank VARCHAR(100)'
+));
+PREPARE alterIfNotExists FROM @preparedStatement2;
+
+EXECUTE alterIfNotExists;
+DEALLOCATE PREPARE alterIfNotExist
+
+//this sql statement is used to create a new field in a tble of a database
+	
+..setup field 
+setup field class is used to set or create field, this is initialise by index file
+by default is disabled 	
+
+//////////////
+
+		
+
+

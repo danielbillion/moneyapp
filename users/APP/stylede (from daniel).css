@@ -1,0 +1,61 @@
+body{
+padding:0px;
+margin:0px;
+background:#FFFFFF;
+}
+
+
+table {border-collapse:collapse; border:0px;}
+
+
+table, td {
+		width:100%;
+		height:100%;
+		border:0px;
+	}
+
+td { vertical-align:top; padding:0px;}
+
+a:hover{text-decoration:none;}
+
+
+
+.m_text, table, li, input, textarea
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:14px;
+		color:#4B4844;
+	}
+	
+.m_text span { color:#302E32}
+.m_text a{ color:#BD5100; background:url(images/a2.gif) no-repeat; background-position:0 6px; padding-left:21px}
+.m_text span a{ color:#BD5100; background:none; padding:0px}
+.m_text span strong{ color:#BD5100}
+	
+.c_text { color:#353535; font-size:10px}
+.c_text a { color:#DE7000}
+.c_text span a{ color:#353535; text-decoration:none; font-size:11px}
+.c_text span a:hover{ color:#353535; text-decoration:underline}
+.c_text span { color:#DE7000}
+
+.no_class, form, .no_class td
+	{
+		width:auto;
+		height:auto;
+		margin:0px;
+		padding:0px;
+		border:0px;
+	}
+
+.input { width:167px; height:20px; color:#A5A3A3; border:1px solid #B4B0AE; vertical-align:middle; padding-left:13px}
+.input2 { width:182px; height:21px; color:#A5A3A3; border:1px solid #968D7A; background:#EDE9DF; vertical-align:middle; padding-left:7px; color:#454545}
+
+.form{height:23px; margin-top:10px;}
+.form input {width:164px; height:20px; border:#FFFFFF 1px solid; background:#E0DAC7; padding-left:5px}
+
+textarea {width:164px; height:86px; border:#FFFFFF 1px solid; background:#E0DAC7; padding-left:5px; overflow:auto; margin-top:10px}
+
+ul {margin:0; padding:0; list-style:none}
+li  {background:none; margin:0px; padding:0px}
+li a  {font-family:Tahoma; font-size:11px; line-height:18px; color:#BD5100}

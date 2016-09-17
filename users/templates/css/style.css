@@ -1,0 +1,305 @@
+* {
+font-family: 'Droid Serif', serif;
+}
+/* Navbar Fonts & heading */
+/* general styling */
+h3{
+		font:bold 19px/1.5em sans-serif;
+		background:#b3d9ff;
+		color:#ffffff;
+		text-shadow: 2px 2px 4px #000000;
+		text-align:center;
+		border-radius:8px;
+		border:2px solid #0000ff;
+	}
+.navbar{
+	border-radius: 0;
+}
+/* Gives shadow border */
+.panel-border{
+	border-radius:10px;
+	color:#000000;
+	box-shadow: 10px 10px 5px grey;
+}
+#logo_head img{
+float:left;	
+margin-top:5px;
+}
+.navbar .navbar-brand, .navbar li{
+margin-left:0px !important;
+font:bold 20px/1.5em 'PT Serif', serif !important;
+color:red !important;
+text-shadow: 2px 2px 8px #FF0000;
+float:left;
+}
+.navbar li a{
+font-size:12px;
+}
+
+/*  how it work*/
+#howitwork{
+	
+	box-shadow:10px 10px 5px grey;
+}
+#howitwork h2{
+	font:bold 25px/1.8em 'PT Serif', serif !important;
+	text-align:center;
+	text-transform:uppercase;
+	text-shadow:10px 10px 5px grey;
+}
+
+ #howitwork .diagram{
+	margin: 8px 16px;	
+}
+#howitwork .flow, #howitwork .diagram{
+	text-align:center;	
+}
+#howitwork .flow span a,#howitwork .flow span{
+	font:bold 16px/1.8em 'Droid', serif !important;	
+	margin: 5px 15px;
+	text-transform:uppercase;
+	color:#660033;
+	background:#e6ccff;
+	border-radius:8px;
+	padding:10px;
+	text-decoration:none;
+}
+#howitwork .flow span a:hover,#howitwork .flow span:hover{
+	color:#333300;
+}
+
+.breadcrumb{
+	color: #800080 !important;
+	font-weight:bold;
+}
+.breadcrumb .active{
+	color:#800080 !important;
+	font-weight:bold;
+	text-transform:uppercase;
+	font:bold 19px/1.5 'Montserrat', sans-serif;
+	box-shadow:10px 10px grey;
+	padding:8px;
+	display:inline-block;
+}
+
+
+body#login {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #1f87c2;
+  color:#fff;
+}
+
+body#login h2{
+	color:#fff;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+footer{
+	margin-top:30px;
+	padding-top:20px;
+	height:60px;
+	text-align: center;
+	background-color: #1f87c2;
+	color:#fff;
+}
+
+.actions{
+	float:right;
+	margin-top:20px;
+}
+
+.tablesorter th{
+	cursor:pointer;
+}
+
+section#notice{
+	
+	height:100px;
+	display:inline;
+	
+	
+}
+
+section#notice .col{
+	
+	width:600px;
+}
+
+section#notice .cola{
+	width:300px;
+	float:left;
+	color:red;
+	
+}	
+
+section#notice .colb{
+width:300px;
+float:right;	
+	
+}
+section#notice p{
+	
+	font-size:13px;
+	
+}
+section#notice .pull-left, section#notice  .pull-right{
+	
+color:red;
+	font:bold 13px/1.2em Georgia, "Times New Roman", Times, serif;
+	
+}
+section#user p{
+	padding:0 0 0 20px;	
+	color:blue;
+	font:bold 12px/1.2em Georgia, "Times New Roman", Times, serif;
+	border-bottom:1px solid #f2f2f2;
+	
+	
+}
+
+section#quickinfo {
+
+	color:red;
+	font:bold 12px/1.2em Georgia, "Times New Roman", Times, serif;
+
+	
+	
+}
+section#search .jumbotron{
+	
+	margin-top:0px important!;
+}
+section#search label{
+	font-weight:bold;
+	color:#191970;
+	padding-left:40px;
+	line-height:200%;
+	
+	
+}
+ 
+.row .title_header{	
+margin-bottom:15px;
+margin-top:15px;
+height:20px;
+text-align:center;
+background:#EBF4FA;
+font-weight:bold;
+color:#6D7B8D;
+width:750px;
+-moz-box-shadow: 0 0 5px #f5f5f5;
+-webkit-box-shadow: 0 0 5px  #f5f5f5;
+border-radius:5px 5px;
+
+}
+.essential{
+	color:red;
+	font-weight;bold;
+	
+	
+}
+h4{
+	font-weight:bold;
+}
+/* for Breadcrum b */
+
+
+
+.panel-resize{
+	padding-left:50px;
+}
+
+/*Transaction Confirmation Page */
+#confirmation.confirmation h4{
+	font:bold 18px/1.7em sans-serif,Times New Roman,Georgia;
+	text-align:center;
+	color:red;
+	text-transform:uppercase;
+	
+}
+
+#confirmation.confirmation .panel-body{
+	
+	
+	color:#000033;
+	
+}
+#confirmation.confirmation .panel-body .body-item{
+	
+	
+	
+	padding:15px 20px;
+	
+}
+#confirmation.confirmation strong{
+	font:bold 14px/1.7em sans-serif,Times New Roman,Georgia;
+	text-align:center;
+	color:#000033;
+	text-transform:uppercase;
+	
+	
+}
+#confirmation.confirmation span.info{
+	font:normal 13px/1.7em sans-serif,Times New Roman,Georgia;
+	text-align:center;
+	color:#000033;
+	text-transform:uppercase;
+	
+}
+	
+	
+/*Table formatting */
+table tr strong{
+	font:bold 12px/1.8 'Montserrat', sans-serif;
+	
+	
+	
+	
+}
+footer a{
+	color:#ff0000;
+	font:bold 13px/1.5 'Montserrat', sans-serif;
+	text-decoration:none;
+}
+footer a:hover{
+	color:#ffffff;
+	font:bold 13px/1.5 'Montserrat', sans-serif;
+	text-decoration:none;
+}
+
+

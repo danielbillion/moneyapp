@@ -1,0 +1,72 @@
+/*PHP Calendar StyleSheet*/
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 3px 0 0 15px;
+	padding: 0;
+  color: #000000;
+}
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+a:hover {
+  color: #0066FF;
+  text-decoration: underline;
+}
+.month_title {
+  text-align: center;
+  font-weight:bold;
+  width: 149px;
+  margin: 1px 2px;
+  padding: 1px 0;
+  border: 1px solid #333333;
+}
+.month_name {
+  float: left;
+  width: 109px;
+}
+.month_move {
+  float: left;
+  width: 20px;
+}
+.week_day {
+  float: left;
+  width: 20px;
+  margin: 1px;
+  font-size: 10px;
+  background-color: #666666;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1px 0;
+}
+.no_day {
+  float:left;
+  width: 22px;
+  height: 22px;
+}
+.day, .day_today {
+  float:left;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #999999;
+  background-color: #EEEEEE;
+  margin: 1px;
+  padding: 1px 0 0 0;
+  font-family: Arial;
+  text-align: center;
+}
+.day_today {
+  border: 1px solid #CC0000;
+  font-weight: bold;
+}
+.r {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0; 
+}

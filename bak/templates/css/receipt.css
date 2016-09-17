@@ -1,0 +1,131 @@
+#container{
+border:solid 3px gray;
+margin:0 0 0 30px;
+border-radius:10px;
+max-width:980px;
+position:relative;
+left:4%
+}
+#container .container-main{
+max-width:880px;
+padding:10px 20px;
+display:block;
+position:relative;
+left:2%;
+
+
+}
+.senderreceiver{
+	border-bottom:double 3px gray;
+}  
+.sender,.receiver,.trans,.payment{
+	vertical-align:top;
+
+}
+#header{
+text-align:center;
+background:#fffaeb;
+padding:5px;
+border-bottom:dotted 2px #000000;	
+}
+/* heading for each section --- sender,receiver, transaction, payment */
+.sheading{
+	font:bold 15px/1.5em Comic Sans MS,"Helvetica","Gadget";
+	text-transform:uppercase;
+	
+}
+
+
+#header .newrow{
+	margin:0;
+	padding-top:0px;
+}
+#header .newrow .companyname{
+	margin:0;
+	padding-top:0px;
+}
+#header .companyname h1{
+	margin:0;
+	padding:0px;
+	font:bold 24px sans-serif,"Montserrat","Playfair Display","GT Walsheim";
+}
+#header .newrow .address{
+	text-transform:uppercase;
+	font:bold 12px Comic Sans MS,"monospace","helvetica","Trebuchet MS","avenir";
+}
+#header .newrow .contact{
+	text-transform:uppercase;
+	font:bold 10px Comic Sans MS,"monospace","helvetica","Trebuchet MS","avenir";
+}
+
+#header .newrow .contact span.email,#header .newrow .contact span.website{
+	text-transform:uppercase;
+	font:bold 10px tahoma,"monospace","helvetica","Trebuchet MS","avenir";
+}
+/************************ Sender & Receiver Section *********/
+#senderReceiver{
+	display:block;
+	
+}
+
+#senderReceiver.senderReceiver .sender{
+	
+	width:40%;
+	display:inline-block;
+	padding:10px 10px;
+	float:left;
+
+}
+
+#senderReceiver.senderReceiver .receiver{
+	
+	width:40%;
+	display:inline-block;
+	padding:10px 10px;
+}
+
+/************************ transaction  & Payment Section *********/
+#transPayment{
+	display:block;
+	
+}
+#transPayment .trans{
+	width:40%;
+	display:inline-block;
+	padding:10px 10px;
+	
+}
+#transPayment .payment{
+	width:50%;
+	display:inline-block;
+	padding:10px 10px;
+	
+}
+#transPayment .item, #senderReceiver .item{
+	display:block;
+	vertical-align:text-top;
+	padding:5px 10px;
+}
+
+#transPayment .item .col1,#senderReceiver .item .col1{
+	display:inline-block;
+	width:40%;
+	float:left;
+	
+	
+	
+}
+/************************ for item nd columns *********/
+#transPayment .item .col2,#senderReceiver .item .col2{
+	display:inline-block;
+	width:50%;
+	text-transform:ucfirst;
+	
+}
+.clearfix{
+	clear:both;
+}
+.print{
+	padding-top:30px;
+	text-align:center;
+}

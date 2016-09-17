@@ -1,0 +1,6 @@
+/*## form main formating#*/
+table, td {border-collapse:collapse;}
+table, td, img {border:1;}
+form, td {margin:0; padding:2;}
+td, tr {font:13px/14px tahoma; color:#0000; vertical-align:top;  text-align:left;}
+
