@@ -29,18 +29,21 @@
 										</td>
 										
 										<td> <?php echo ucfirst($result->fname). " " . ucfirst($result->mname)." ".ucfirst($result->lname);   ?></td>
+<!----View Profile---->										
 										<td>
-												<i class="fa fa-user" aria-hidden="true">  <a href="memberPage.php?id=<?php echo $result->id; ?>"><a href="memberPage.php?id=<?php echo $result->id; ?>">View Profile </a> </i>																							
+												<a href="memberPage.php?id=<?php echo $result->id; ?>"><i class="fa fa-user" aria-hidden="true"> </i>View Profile </a> 																							
+										</td>
+<!----Customers---->											
+										<td>
+												<a href="memberCustomer.php?Id=<?php echo $result->id; ?>"><i class="fa fa-users" aria-hidden="true"> </i> Customers:<?php echo  $result->countId; ?> </a>																																	
+										</td>
+<!----Peniding Transaction---->											
+										<td>
+											<a href="previousTransaction.php?opType=Pending && Id=<?php echo $result->id; ?>"><i class="fa fa-money" aria-hidden="true"> </i> Pending:<?php echo  $result->transPending; ?> /  &#8358;<?php echo number_format($result->localPending,2); ?> </a>
+																																			
 										</td>
 										
-										<td>
-												<i class="fa fa-users" aria-hidden="true"> Customers:<?php echo  $result->countId; ?> </i>																							
-										</td>
-										
-										<td>
-												<i class="fa fa-shopping-cart" aria-hidden="true"> Pending:<?php echo  $result->transPending; ?> /  &#8358;<?php echo number_format($result->localPending,2); ?>	</i>																							
-										</td>
-										<td>
+<!----Email---->						<td>
 												<i class="fa fa-envelope" aria-hidden="true"></i> Email										
 										</td>
 										<?php endforeach; ?>

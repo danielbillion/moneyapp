@@ -62,5 +62,60 @@ class Transaction{
 		return $row;
 		
 	}
+	
+	public function searchOption($required){
+		$query=array();
+		if($required['option']=='phone'){
+				$query=" (date BETWEEN ".$date1." AND ".$date2.") " ;
+			}
+			
+		
+//pending		
+			if($required['option']=='pending'){
+				$query['field']="status" ;
+				$query['value']="'"."Pending"."'";
+				$query['relation']="=";
+			}
+
+//paid		
+			if($required['option']=='PAID'){
+					$query['field']="status" ;
+				$query['value']="'"."PAID"."'";
+				$query['relation']="=";
+			}
+//today		
+			if($required['option']=='today'){			
+				$query['field']="date" ;
+				$query['value']=dDate();
+				$query['relation']="=";
+			}	
+//transfer code		
+			if($required['option']=='transferCode'){
+					$query['field']="receiptno" ;
+				$query['value']="'".trim($required['entry']). "'";
+				$query['relation']="=";
+			}
+//sender First Name Last	
+			if($required['option']=='cFirstLastName'){
+					$query['field']="sender_name" ;
+				$query['value']="'".trim($required['entry'])."'";
+				$query['relation']="=";
+			}			
+//sender Phone	
+			if($required['option']=='phoneNo'){
+					$query['field']="s_phone" ;
+				$query['value']="'".trim($required['entry'])."'";
+				$query['relation']="=";
+			}
+//sender Date	
+			if($required['option']=='date'){
+					$query['relation']=" BETWEEN ";
+					$query['field']="date" ;
+				$query['value']="'".($required['date1'])."'". " AND "."'".($required['date2'])."'" ;
+			}			
+	
+			return $query;
+	}
+	
 		
 }

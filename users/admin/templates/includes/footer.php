@@ -11,6 +11,13 @@
 	
 	</section><!--end section--------->
 	
+	
+	  <script>
+    $(function(){
+	$("#copy").clone().insertAfter("#dup:last");	
+	})
+	 </script>
+	
 	<script src="js/jquery.tablesorter.js"></script>
 	  <script>
     $(function(){

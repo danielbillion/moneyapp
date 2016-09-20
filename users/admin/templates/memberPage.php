@@ -57,7 +57,7 @@
 						<div class="image">
 							<strong>Pending Transactions</strong>:<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
 						</div>
-						<a href="" class="btn btn-danger btn-lg ">View</a>
+						<a href="previousTransaction.php?opType=Pending && Id=<?php echo $result->id; ?>" class="btn btn-danger btn-lg ">View</a>
 					</div>
 				</div>
 			</div>

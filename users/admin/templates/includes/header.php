@@ -85,11 +85,11 @@
 							<ul class="dropdown-menu">
 						
 						<?php if((getUser()['level']=='1')||(getUser()['level']=='2')|| (getUser()['level']=='3') || (getUser()['level']=='4') ): ?>
-							<li><a href="prevTrans.php">Previous Transaction</a></li>
+							<li><a href="previousTransaction.php">Previous Transaction</a></li>
 						<?php endif; ?>
 						
 						<?php if((getUser()['level']=='2')|| (getUser()['level']=='3') || (getUser()['level']=='4') ): ?>
-							<li><a href="prevTrans.php">Previous Transaction</a></li>
+							<li><a href="previousTransaction.php">Previous Transaction</a></li>
 						<?php endif; ?>
 						
 						  <li><a href="search.php">Search</a></li>
@@ -198,6 +198,8 @@
 					   <?php if((getUser()['level']=='1')|| (getUser()['level']=='2') || (getUser()['level']=='3') || (getUser()['level']=='4') ): ?>
 						<a href="sendersReceivers.php" class="list-group-item"><i class="glyphicon glyphicon-user"></i> Customers</a>
 					  <?php endif; ?>
+					  
+					   <a href="previousTransaction.php" class="list-group-item"><i class="glyphicon glyphicon-search"></i> Previous Transaction  </a>
 					  
 					  <a href="search.php" class="list-group-item"><i class="glyphicon glyphicon-search"></i> Modify Our Office Bank  </a>
 					  

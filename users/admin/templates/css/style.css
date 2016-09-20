@@ -9,6 +9,11 @@ strong{
 		text-transform:uppercase;
 	
 }
+a{
+	text-decoration:none;
+	color:#000000;
+	font-family:'Nunito', sans-serif;;
+}
 h3{
 		font:bold 19px/1.5em sans-serif;
 		background:#b3d9ff;
